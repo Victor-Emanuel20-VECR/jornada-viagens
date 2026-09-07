@@ -34,6 +34,26 @@
   display: inline-block;
 }
 
+.card.japan {
+  background: url(../images/japan-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background: url(../images/sanandreas-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../images/paraiba-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../images/manaus-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
   .card {
     width: 588px;
