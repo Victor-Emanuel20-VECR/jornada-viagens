@@ -90,5 +90,16 @@
 
   .destination-items {
     flex-direction: row;
+    align-items: stretch;
+  }
+
+  .destinations .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .destinations .item footer {
+    margin-top: auto;
   }
 }
