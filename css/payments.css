@@ -7,10 +7,6 @@
   width: 100%;
 }
 
-.payments .content-container {
-  display: flex;
-}
-
 .payments .content-container .image-content .image.luggage {
   background: url(../images/luggage-mobile.png) no-repeat;
   background-size: cover;
@@ -49,12 +45,15 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
+    display: flex;
     justify-content: space-between;
   }
+
   .payments .content-container .text-content {
     width: 360px;
   }
   .payments .content-container .image-content {
     width: 790px;
+    margin: 0;
   }
 }
