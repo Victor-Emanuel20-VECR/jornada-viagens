@@ -1,7 +1,16 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
-  width: 100%;
-  background: url("../images/hero-mobile.jpg") no-repeat;
+  width: 100;
+}
+
+.hero .hero-img {
+  background: url(../images/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img {
+  background: url(../images/bottom-hero-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -17,40 +26,41 @@
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
-    width: 100%;
     background: url("../images/hero-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../images/bottom-hero-tablet.png) no-repeat;
     background-size: cover;
   }
 
   .hero h2 {
     padding: 88px 60px;
-    margin: 0px;
-    font-weight: var(--text-weight);
     font-size: 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
-    height: 620px;
-    width: 100%;
+  .hero .hero-img {
     background: url("../images/hero-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../images/bottom-hero-desktop.png) no-repeat;
     background-size: cover;
   }
 
   .hero h2 {
     padding: 88px 120px;
-    margin: 0px;
-    font-weight: var(--text-weight);
-    font-size: 32px;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
-    margin: 0px;
-    font-weight: var(--text-weight);
-    font-size: 32px;
   }
 }
